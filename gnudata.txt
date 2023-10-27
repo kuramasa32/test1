@@ -1,0 +1,45 @@
+set xrange [0:1000]
+set yrange [0:1000]
+set size square
+
+# 長方形1
+x1 = 28
+x2 = 337
+y1 = 612
+y2 = 698
+plot [x1:x2] [y1:y2] NaN
+
+# 長方形2
+x1 = 337
+x2 = 405
+y1 = 612
+y2 = 936
+replot [x1:x2] [y1:y2] NaN
+
+# 長方形3
+x1 = 405
+x2 = 762
+y1 = 855
+y2 = 936
+replot [x1:x2] [y1:y2] NaN
+
+# 長方形4
+x1 = 762
+x2 = 830
+y1 = 86
+y2 = 936
+replot [x1:x2] [y1:y2] NaN
+
+# 長方形5
+x1 = 830
+x2 = 997
+y1 = 86
+y2 = 172
+replot [x1:x2] [y1:y2] NaN
+
+# 長方形6
+x1 = 830
+x2 = 997
+y1 = 612
+y2 = 698
+replot [x1:x2] [y1:y2] NaN
